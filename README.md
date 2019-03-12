@@ -6,6 +6,12 @@ A VuePress plugin to workaround [SSR mismatches in redirects](https://github.com
 
 ## Usage
 
+```bash
+npm install vuepress-plugin-ssr-mismatch-workaround
+# OR
+yarn add vuepress-plugin-ssr-mismatch-workaround
+```
+
 ```js
 // config.js
 module.exports = {
