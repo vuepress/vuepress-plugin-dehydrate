@@ -17,7 +17,7 @@ module.exports = {
 
 VuePress will try to redirect unknown request `/foo` to `/foo.html` and `/foo/`. Other scenarios include redirecting `/` to `/zh/` or `/en/` based on navigator language.
 
-The snippet referenced above will work fine for most of the conditions. But if the page needs redirecting before rendering starts, uses server-side rendering and the pages before and after redirecting do not share an identical structure, this will lead to the problem called **SSR Mismatch**.
+VuePress will work fine for most of the conditions. But if the page needs redirecting before rendering starts, uses server-side rendering and the pages before and after redirecting do not share an identical structure, this will lead to the problem called **SSR Mismatch**.
 
 ### An example to explain the mismatch
 
