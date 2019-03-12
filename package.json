@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-plugin-ssr-mismatch-workaround",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A VuePress plugin to workaround SSR mismatches in redirects",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shigma/vuepress-plugin-ssr-mismatch-workaround.git"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-plugin",
+    "server",
+    "ssr",
+    "build",
+    "workaround"
+  ]
+}
