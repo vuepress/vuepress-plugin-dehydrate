@@ -31,7 +31,7 @@ You request `/foo` in the browser, but the server can't find a direct match (wit
 
 ### A reproduction repository
 
-@ulivz has created [a reproduction repository](https://github.com/ulivz/vuepress-ssr-mismatch-repro) for users to test this issue. Thanks!
+[@ulivz](https://github.com/ulivz) has created [a reproduction repository](https://github.com/ulivz/vuepress-ssr-mismatch-repro) for users to test this issue. Thanks!
 
 ## Workaround
 
