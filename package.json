@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-ssr-mismatch-workaround",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "A VuePress plugin to workaround SSR mismatches in redirects",
   "author": "Shigma <1700011071@pku.edu.cn>",

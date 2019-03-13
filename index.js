@@ -10,7 +10,7 @@ function replaceFileContent(file, search, replace) {
 }
 
 module.exports = (options, context) => ({
-  name: 'vuepress-plugin-404-without-ssr',
+  name: 'vuepress-plugin-ssr-mismatch-workaround',
 
   ready () {
     // hack into current ssr template

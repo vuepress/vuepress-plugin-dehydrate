@@ -29,6 +29,10 @@ VuePress will work fine for most of the conditions. But if the page needs redire
 
 You request `/foo` in the browser, but the server can't find a direct match (without certain config), so a `NotFound` page `/404.html` will be returned. The `beforeEach` hook registered in `handleRedirectForCleanUrls` will redirect the router to `/foo.html`. Note that the DOM remains unchanged but the VDOM is replaced with `/foo.html`'s. Normally, `/404.html` is a plain page without navbar and sidebar, but the new VDOM is a document page with such components. The DOM fails to match the VDOM, causing rendering error and the view will not be updated. This is an SSR Mismatch and its consequence.
 
+### A reproduction repository
+
+@ulivz has created [a reproduction repository](https://github.com/ulivz/vuepress-ssr-mismatch-repro) for users to test this issue. Thanks!
+
 ## Workaround
 
 This issue only appears on the first visit. And redirects generally occur on 404 pages, so a simple workaround is to disable SSR for `/404.html`. Since `/404.html` is usually simple and not so necessary to be SEO friendly, this solution is reasonable. 
