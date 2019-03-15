@@ -9,20 +9,20 @@ exports[`dehydation 404.html 1`] = `
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>VuePress</title>
     <meta name="description" content="">
-    <link rel="preload" href="/assets/css/0.styles.53e4595a.css" as="style">
-    <link rel="preload" href="/assets/js/app.3fe70f2e.js" as="script">
-    <link rel="preload" href="/assets/js/2.418462f5.js" as="script">
-    <link rel="prefetch" href="/assets/js/3.db027a4f.js">
-    <link rel="prefetch" href="/assets/js/4.f6ba1d08.js">
-    <link rel="prefetch" href="/assets/js/5.222ba868.js">
-    <link rel="prefetch" href="/assets/js/6.d7ad24ac.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.53e4595a.css">
+    <link rel="preload" href="/some/asset" as="style">
+    <link rel="preload" href="/some/asset" as="script">
+    <link rel="preload" href="/some/asset" as="script">
+    <link rel="prefetch" href="/some/asset">
+    <link rel="prefetch" href="/some/asset">
+    <link rel="prefetch" href="/some/asset">
+    <link rel="prefetch" href="/some/asset">
+    <link rel="stylesheet" href="/some/asset">
   </head>
 
   <body>
     <div id="app"></div>
-    <script src="/assets/js/app.3fe70f2e.js" defer></script>
-    <script src="/assets/js/2.418462f5.js" defer></script>
+    <script src="/some/asset" defer></script>
+    <script src="/some/asset" defer></script>
   </body>
 
 </html>
@@ -37,14 +37,14 @@ exports[`dehydation index.html 1`] = `
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>VuePress</title>
     <meta name="description" content="">
-    <link rel="preload" href="/assets/css/0.styles.53e4595a.css" as="style">
-    <link rel="preload" href="/assets/js/app.3fe70f2e.js" as="script">
-    <link rel="preload" href="/assets/js/3.db027a4f.js" as="script">
-    <link rel="preload" href="/assets/js/5.222ba868.js" as="script">
-    <link rel="prefetch" href="/assets/js/2.418462f5.js">
-    <link rel="prefetch" href="/assets/js/4.f6ba1d08.js">
-    <link rel="prefetch" href="/assets/js/6.d7ad24ac.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.53e4595a.css">
+    <link rel="preload" href="/some/asset" as="style">
+    <link rel="preload" href="/some/asset" as="script">
+    <link rel="preload" href="/some/asset" as="script">
+    <link rel="preload" href="/some/asset" as="script">
+    <link rel="prefetch" href="/some/asset">
+    <link rel="prefetch" href="/some/asset">
+    <link rel="prefetch" href="/some/asset">
+    <link rel="stylesheet" href="/some/asset">
   </head>
 
   <body>
@@ -54,9 +54,9 @@ exports[`dehydation index.html 1`] = `
       </div>
       <div class="global-ui"></div>
     </div>
-    <script src="/assets/js/app.3fe70f2e.js" defer></script>
-    <script src="/assets/js/3.db027a4f.js" defer></script>
-    <script src="/assets/js/5.222ba868.js" defer></script>
+    <script src="/some/asset" defer></script>
+    <script src="/some/asset" defer></script>
+    <script src="/some/asset" defer></script>
   </body>
 
 </html>
@@ -71,7 +71,7 @@ exports[`dehydation noscript.html 1`] = `
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>VuePress</title>
     <meta name="description" content="">
-    <link rel="stylesheet" href="/assets/css/0.styles.53e4595a.css">
+    <link rel="stylesheet" href="/some/asset">
   </head>
 
   <body>

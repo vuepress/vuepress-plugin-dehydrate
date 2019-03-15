@@ -15,6 +15,7 @@ describe('dehydation', () => {
   function testForFile (name, file = name) {
     test(name, () => {
       const html = readFileSync(resolve(app.outDir, file), 'utf8')
+        .replace(/(src|href)="\/[\w./]+"/g, (_, $1) => $1 + '="/some/asset"')
       expect(html).toMatchSnapshot()
     })
   }
