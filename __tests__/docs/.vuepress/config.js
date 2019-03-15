@@ -1,6 +1,8 @@
 module.exports = {
   plugins: [
-    require('../../..')
+    [require('../../..'), {
+      noScript: 'noscript.html',
+    }]
   ],
   evergreen: false,
 }

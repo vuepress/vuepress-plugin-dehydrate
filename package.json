@@ -14,7 +14,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "serve": "vuepress serve docs",
-    "jest": "jest --config jest.config.js",
+    "jest": "jest --config jest.config.js .*\\.spec\\.js$",
     "test": "npm run lint & npm run jest"
   },
   "devDependencies": {
