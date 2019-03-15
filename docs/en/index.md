@@ -1,55 +1,10 @@
-# [vuepress-plugin-dehydrate](https://vuepress-contrib.github.io/vuepress-plugin-dehydrate/)
+---
+sidebarDepth: 3
+---
 
-[![Build Status](https://travis-ci.org/vuepress-contrib/vuepress-plugin-dehydrate.svg?branch=master)](https://travis-ci.org/vuepress-contrib/vuepress-plugin-dehydrate)
-[![npm](https://img.shields.io/npm/v/vuepress-plugin-dehydrate.svg)](https://www.npmjs.com/package/vuepress-plugin-dehydrate)
+# Introduction
 
-A [VuePress](https://vuepress.vuejs.org/) plugin to dehydrate generated HTML files.
-
-## Usage
-
-### Global Installation
-
-```bash
-npm install -g vuepress-plugin-dehydrate
-# OR
-yarn global add vuepress-plugin-dehydrate
-```
-
-### Local Installation
-
-```bash
-npm install vuepress-plugin-dehydrate
-# OR
-yarn add vuepress-plugin-dehydrate
-```
-
-### Add to `config.js`
-
-```js
-module.exports = {
-  plugins: [
-    // workaround SSR mismatch
-    'dehydrate',
-  ]
-}
-```
-or
-```js
-module.exports = {
-  plugins: {
-    dehydrate: {
-      // disable SSR
-      noSSR: '404.html',
-      // remove scripts
-      noScript: [
-        // support glob patterns
-        'foo/*.html',
-        '**/static.html',
-      ],
-    },
-  }
-}
-```
+`vuepress-plugin-dehydrate` is a VuePress plugin to dehydrate generated HTML files.
 
 ## SSR Mismatch
 
@@ -139,36 +94,50 @@ When we use the [`noScript`](./config.md#noscript) mode, VuePress will generate 
 </html>
 ```
 
-## Options
+## Usage
 
-### noSSR
+### Global Installation
 
-- **type:** `string | string[]`
-- **default:** `'404.html'`
+```bash
+npm install -g vuepress-plugin-dehydrate
+# OR
+yarn global add vuepress-plugin-dehydrate
+```
 
-A list of files to disable SSR, with [glob patterns](https://github.com/isaacs/minimatch#usage) supported.
+### Local Installation
 
-### noScript
+```bash
+npm install vuepress-plugin-dehydrate
+# OR
+yarn add vuepress-plugin-dehydrate
+```
 
-- **type:** `string | string[]`
-- **default:** `[]`
+### Add to `config.js`
 
-A list of files to remove scripts, with [glob patterns](https://github.com/isaacs/minimatch#usage) supported.
+```js
+module.exports = {
+  plugins: [
+    // workaround SSR mismatch
+    'dehydrate',
+  ]
+}
+```
+or
+```js
+module.exports = {
+  plugins: {
+    dehydrate: {
+      // disable SSR
+      noSSR: '404.html',
+      // remove scripts
+      noScript: [
+        // support glob patterns
+        'foo/*.html',
+        '**/static.html',
+      ],
+    },
+  }
+}
+```
 
-### globOptions
-
-- **type:** `object`
-- **default:** `{}`
-
-Options for [fast-glob](https://github.com/mrmlnc/fast-glob#options-1).
-
-### noEmptyLine
-
-- **type:** `boolean`
-- **default:** `true`
-
-Whether to delete extra blank lines in HTML.
-
-## Contribution
-
-Contribution Welcome!
+See detailed configurations [here](./config.md).

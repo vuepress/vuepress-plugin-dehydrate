@@ -59,7 +59,7 @@ module.exports = (options, context) => ({
     replaceFileContent(context.ssrTemplate, wrapperReplacer)
 
     const {
-      noSSR = ['404.html'],
+      noSSR = '404.html',
       noScript = [],
       noEmptyLine = true,
     } = options
