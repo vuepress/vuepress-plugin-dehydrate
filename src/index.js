@@ -1,4 +1,5 @@
 const { resolve } = require('path')
+const { globby } = require('@vuepress/shared-utils')
 const { readFileSync, writeFileSync } = require('fs')
 
 const contentPlaceholder = '<!--vue-ssr-outlet-->'
@@ -10,7 +11,7 @@ function replaceFileContent(file, search, replace) {
 }
 
 module.exports = (options, context) => ({
-  name: 'vuepress-plugin-ssr-mismatch-workaround',
+  name: 'vuepress-plugin-dehydrate',
 
   ready () {
     // hack into current ssr template
