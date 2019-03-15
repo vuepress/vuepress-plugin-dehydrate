@@ -99,7 +99,7 @@ A normally generated HTML file will be like this:
 </html>
 ```
 
-When we use the [`noSSR`](./config.md#nossr) mode, VuePress will generate such HTML:
+When we use the [`noSSR`](#nossr) mode, VuePress will generate such HTML:
 
 ```html
 <!DOCTYPE html>
@@ -119,7 +119,7 @@ When we use the [`noSSR`](./config.md#nossr) mode, VuePress will generate such H
 </html>
 ```
 
-When we use the [`noScript`](./config.md#noscript) mode, VuePress will generate such HTML:
+When we use the [`noScript`](#noscript) mode, VuePress will generate such HTML:
 
 ```html
 <!DOCTYPE html>

@@ -9,6 +9,10 @@
     "type": "git",
     "url": "https://github.com/vuepress-contrib/vuepress-plugin-dehydrate.git"
   },
+  "bugs": {
+    "url": "https://github.com/vuepress-contrib/vuepress-plugin-dehydrate/issues"
+  },
+  "homepage": "https://vuepress-contrib.github.io/vuepress-plugin-dehydrate",
   "scripts": {
     "lint": "eslint .",
     "dev": "vuepress dev docs",
