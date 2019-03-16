@@ -32,7 +32,7 @@ Sometimes we want to output a HTML page without all the fancy preload, prefetch 
 
 It may be amazing, but the solutions to these two problems are similar. VuePress uses `ssrTemplate` as a template for SSR rendering. All we have to do is delete part of them. For the first problem, since all redirections where SSR mismatches occur take place on the 404 page, we only need to disable the SSR for that page. Since 404 pages are usually simple and not so necessary to be SEO friendly, this solution is reasonable. On the contrary, in the second case, we merely need to remove the the scripts for "hydration" rather than delete SSR pre-rendered HTML. This plugin provides both of these capabilities, allowing us to control every page effectively.
 
-### Demostration
+### Demonstration
 
 A normally generated HTML file will be like this:
 
