@@ -20,6 +20,7 @@ const scriptsAfter = '<!--after-scripts-->'
 const scriptsWrapper = scriptsBefore + scriptsOriginal + scriptsAfter
 const scriptsReplacer = [new RegExp(`${scriptsBefore}[\\s\\S]*${scriptsAfter}`)]
 
+const serverRenderedReplacer = [' data-server-rendered="true"']
 const emptyLineReplacer = [/^ *\r?\n/mg]
 const wrapperReplacer = [new RegExp([
   contentBefore,
@@ -89,7 +90,7 @@ module.exports = (options, context) => ({
       const index = pages.indexOf(file)
       if (index < 0) return
       pages.splice(index, 1)
-      replaceFileContent(file, resourceReplacer, scriptsReplacer, ...defaultReplacers)
+      replaceFileContent(file, resourceReplacer, scriptsReplacer, serverRenderedReplacer, ...defaultReplacers)
     })
 
     // clean up unhandled files

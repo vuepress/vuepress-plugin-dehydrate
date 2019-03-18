@@ -88,7 +88,7 @@ VuePress 在绝大部分情况下都能正常工作，但是如果页面在在 V
     <link rel="stylesheet" href="/assets/css/0.styles.53e4595a.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="content default"><p>readme</p></div><div class="global-ui"></div></div>
+    <div id="app"><div class="content default"><p>readme</p></div><div class="global-ui"></div></div>
     <!-- 注意这里 -->
   </body>
 </html>

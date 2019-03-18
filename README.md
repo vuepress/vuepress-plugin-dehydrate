@@ -133,7 +133,7 @@ When we use the [`noScript`](#noscript) mode, VuePress will generate such HTML:
     <link rel="stylesheet" href="/assets/css/0.styles.53e4595a.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="content default"><p>readme</p></div><div class="global-ui"></div></div>
+    <div id="app"><div class="content default"><p>readme</p></div><div class="global-ui"></div></div>
     <!-- see here -->
   </body>
 </html>

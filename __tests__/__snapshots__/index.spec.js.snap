@@ -1,87 +1,167 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`dehydation 404.html 1`] = `
+
 <!DOCTYPE html>
 <html lang="en-US">
-
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>VuePress</title>
-    <meta name="description" content="">
-    <link rel="preload" href="/some/asset" as="style">
-    <link rel="preload" href="/some/asset" as="script">
-    <link rel="preload" href="/some/asset" as="script">
-    <link rel="prefetch" href="/some/asset">
-    <link rel="prefetch" href="/some/asset">
-    <link rel="prefetch" href="/some/asset">
-    <link rel="prefetch" href="/some/asset">
-    <link rel="stylesheet" href="/some/asset">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1"
+    >
+    <title>
+      VuePress
+    </title>
+    <meta name="description"
+          content
+    >
+    <link rel="preload"
+          href="/some/asset"
+          as="style"
+    >
+    <link rel="preload"
+          href="/some/asset"
+          as="script"
+    >
+    <link rel="preload"
+          href="/some/asset"
+          as="script"
+    >
+    <link rel="prefetch"
+          href="/some/asset"
+    >
+    <link rel="prefetch"
+          href="/some/asset"
+    >
+    <link rel="prefetch"
+          href="/some/asset"
+    >
+    <link rel="prefetch"
+          href="/some/asset"
+    >
+    <link rel="stylesheet"
+          href="/some/asset"
+    >
   </head>
-
   <body>
-    <div id="app"></div>
-    <script src="/some/asset" defer></script>
-    <script src="/some/asset" defer></script>
+    <div id="app">
+    </div>
+    <script src="/some/asset"
+            defer
+    >
+    </script>
+    <script src="/some/asset"
+            defer
+    >
+    </script>
   </body>
-
 </html>
+
 `;
 
 exports[`dehydation index.html 1`] = `
+
 <!DOCTYPE html>
 <html lang="en-US">
-
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>VuePress</title>
-    <meta name="description" content="">
-    <link rel="preload" href="/some/asset" as="style">
-    <link rel="preload" href="/some/asset" as="script">
-    <link rel="preload" href="/some/asset" as="script">
-    <link rel="preload" href="/some/asset" as="script">
-    <link rel="prefetch" href="/some/asset">
-    <link rel="prefetch" href="/some/asset">
-    <link rel="prefetch" href="/some/asset">
-    <link rel="stylesheet" href="/some/asset">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1"
+    >
+    <title>
+      VuePress
+    </title>
+    <meta name="description"
+          content
+    >
+    <link rel="preload"
+          href="/some/asset"
+          as="style"
+    >
+    <link rel="preload"
+          href="/some/asset"
+          as="script"
+    >
+    <link rel="preload"
+          href="/some/asset"
+          as="script"
+    >
+    <link rel="preload"
+          href="/some/asset"
+          as="script"
+    >
+    <link rel="prefetch"
+          href="/some/asset"
+    >
+    <link rel="prefetch"
+          href="/some/asset"
+    >
+    <link rel="prefetch"
+          href="/some/asset"
+    >
+    <link rel="stylesheet"
+          href="/some/asset"
+    >
   </head>
-
   <body>
-    <div id="app">
+    <div id="app"
+         data-server-rendered="true"
+    >
       <div class="content default">
-        <p>readme</p>
+        <p>
+          readme
+        </p>
       </div>
-      <div class="global-ui"></div>
+      <div class="global-ui">
+      </div>
     </div>
-    <script src="/some/asset" defer></script>
-    <script src="/some/asset" defer></script>
-    <script src="/some/asset" defer></script>
+    <script src="/some/asset"
+            defer
+    >
+    </script>
+    <script src="/some/asset"
+            defer
+    >
+    </script>
+    <script src="/some/asset"
+            defer
+    >
+    </script>
   </body>
-
 </html>
+
 `;
 
 exports[`dehydation noscript.html 1`] = `
+
 <!DOCTYPE html>
 <html lang="en-US">
-
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>VuePress</title>
-    <meta name="description" content="">
-    <link rel="stylesheet" href="/some/asset">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1"
+    >
+    <title>
+      VuePress
+    </title>
+    <meta name="description"
+          content
+    >
+    <link rel="stylesheet"
+          href="/some/asset"
+    >
   </head>
-
   <body>
     <div id="app">
       <div class="content default">
-        <p>noscript</p>
+        <p>
+          noscript
+        </p>
       </div>
-      <div class="global-ui"></div>
+      <div class="global-ui">
+      </div>
     </div>
   </body>
-
 </html>
+
 `;
