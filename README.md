@@ -1,6 +1,5 @@
-# [vuepress-plugin-dehydrate](https://vuepress-contrib.github.io/vuepress-plugin-dehydrate/)
+# [vuepress-plugin-dehydrate](https://vuepress.github.io/plugins/dehydrate.html)
 
-[![Build Status](https://travis-ci.org/vuepress-contrib/vuepress-plugin-dehydrate.svg?branch=master)](https://travis-ci.org/vuepress-contrib/vuepress-plugin-dehydrate)
 [![npm](https://img.shields.io/npm/v/vuepress-plugin-dehydrate.svg)](https://www.npmjs.com/package/vuepress-plugin-dehydrate)
 
 A [VuePress](https://vuepress.vuejs.org/) plugin to dehydrate generated HTML files.

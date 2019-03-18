@@ -12,12 +12,9 @@
   "bugs": {
     "url": "https://github.com/vuepress-contrib/vuepress-plugin-dehydrate/issues"
   },
-  "homepage": "https://vuepress-contrib.github.io/vuepress-plugin-dehydrate",
+  "homepage": "https://vuepress.github.io/plugins/dehydrate.html",
   "scripts": {
     "lint": "eslint .",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "serve": "vuepress serve docs",
     "jest": "jest --config jest.config.js .*\\.spec\\.js$",
     "test": "npm run lint & npm run jest"
   },
@@ -31,9 +28,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.2",
     "jest": "^24.5.0",
-    "jest-serializer-html": "^6.0.0",
-    "vuepress": "^1.0.0-alpha.44",
-    "vuepress-theme-contrib": "^1.0.0-alpha.2"
+    "jest-serializer-html": "^6.0.0"
   },
   "dependencies": {
     "@vuepress/shared-utils": "^1.0.0-alpha.44"
