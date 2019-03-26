@@ -1,16 +1,16 @@
 {
   "name": "vuepress-plugin-dehydrate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "description": "A VuePress plugin to dehydrate generated HTML files.",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuepress-contrib/vuepress-plugin-dehydrate.git"
+    "url": "https://github.com/vuepress/vuepress-plugin-dehydrate.git"
   },
   "bugs": {
-    "url": "https://github.com/vuepress-contrib/vuepress-plugin-dehydrate/issues"
+    "url": "https://github.com/vuepress/vuepress-plugin-dehydrate/issues"
   },
   "homepage": "https://vuepress.github.io/plugins/dehydrate.html",
   "scripts": {

@@ -1,3 +1,7 @@
+/**
+ * @jest-environment node
+ */
+
 const { resolve } = require('path')
 const { readFileSync } = require('fs')
 const { createApp } = require('@vuepress/core')
