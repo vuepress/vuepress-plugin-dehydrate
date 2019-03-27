@@ -28,11 +28,11 @@ exports[`dehydation 404.html 1`] = `
           as="script"
     >
     <link rel="preload"
-          href="/assets/js/2.js"
+          href="/assets/js/3.js"
           as="script"
     >
     <link rel="prefetch"
-          href="/assets/js/3.js"
+          href="/assets/js/2.js"
     >
     <link rel="prefetch"
           href="/assets/js/4.js"
@@ -54,7 +54,7 @@ exports[`dehydation 404.html 1`] = `
             defer
     >
     </script>
-    <script src="/assets/js/2.js"
+    <script src="/assets/js/3.js"
             defer
     >
     </script>
@@ -95,7 +95,7 @@ exports[`dehydation index.html 1`] = `
           as="script"
     >
     <link rel="preload"
-          href="/assets/js/3.js"
+          href="/assets/js/2.js"
           as="script"
     >
     <link rel="preload"
@@ -103,7 +103,7 @@ exports[`dehydation index.html 1`] = `
           as="script"
     >
     <link rel="prefetch"
-          href="/assets/js/2.js"
+          href="/assets/js/3.js"
     >
     <link rel="prefetch"
           href="/assets/js/4.js"
@@ -131,7 +131,7 @@ exports[`dehydation index.html 1`] = `
             defer
     >
     </script>
-    <script src="/assets/js/3.js"
+    <script src="/assets/js/2.js"
             defer
     >
     </script>
