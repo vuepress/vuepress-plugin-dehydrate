@@ -29,7 +29,9 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.2",
     "jest": "^24.5.0",
-    "jest-serializer-html": "^6.0.0"
+    "jest-serializer-html": "^6.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
   },
   "dependencies": {
     "@vuepress/shared-utils": "^1.0.0-alpha.44"
