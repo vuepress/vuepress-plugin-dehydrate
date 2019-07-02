@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-dehydrate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/index.js",
   "description": "A VuePress plugin to dehydrate generated HTML files.",
   "author": "Shigma <1700011071@pku.edu.cn>",
@@ -12,14 +12,14 @@
   "bugs": {
     "url": "https://github.com/vuepress/vuepress-plugin-dehydrate/issues"
   },
-  "homepage": "https://vuepress.github.io/plugins/dehydrate.html",
+  "homepage": "https://vuepress.github.io/plugins/dehydrate/",
   "scripts": {
     "lint": "eslint .",
     "jest": "jest --config jest.config.js .*\\.spec\\.js$",
     "test": "npm run lint & npm run jest"
   },
   "devDependencies": {
-    "@vuepress/core": "^1.0.0-alpha.44",
+    "@vuepress/core": "^1.0.2",
     "eslint": "^5.15.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
@@ -34,7 +34,7 @@
     "stylus-loader": "^3.0.2"
   },
   "dependencies": {
-    "@vuepress/shared-utils": "^1.0.0-alpha.44"
+    "@vuepress/shared-utils": "^1.0.2"
   },
   "keywords": [
     "vuepress",
