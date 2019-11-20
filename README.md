@@ -1,5 +1,7 @@
 # [vuepress-plugin-dehydrate](https://vuepress.github.io/plugins/dehydrate/)
 
+> Migrated to [vuepress-community](https://github.com/vuepress/vuepress-community)
+
 [![npm](https://img.shields.io/npm/v/vuepress-plugin-dehydrate.svg)](https://www.npmjs.com/package/vuepress-plugin-dehydrate)
 [![CircleCI](https://img.shields.io/circleci/project/github/vuepress/vuepress-plugin-dehydrate/master.svg)](https://circleci.com/gh/vuepress/vuepress-plugin-dehydrate)
 
